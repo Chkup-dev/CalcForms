@@ -1,0 +1,16 @@
+C:\Users\Кирик\Desktop\c#projects\PhysCalc\PhysCalc\bin\Debug\PhysCalc.exe.config
+C:\Users\Кирик\Desktop\c#projects\PhysCalc\PhysCalc\bin\Debug\PhysCalc.exe
+C:\Users\Кирик\Desktop\c#projects\PhysCalc\PhysCalc\bin\Debug\PhysCalc.pdb
+C:\Users\Кирик\Desktop\c#projects\PhysCalc\PhysCalc\obj\Debug\PhysCalc.csprojAssemblyReference.cache
+C:\Users\Кирик\Desktop\c#projects\PhysCalc\PhysCalc\obj\Debug\PhysCalc.Form1.resources
+C:\Users\Кирик\Desktop\c#projects\PhysCalc\PhysCalc\obj\Debug\PhysCalc.Properties.Resources.resources
+C:\Users\Кирик\Desktop\c#projects\PhysCalc\PhysCalc\obj\Debug\PhysCalc.csproj.GenerateResource.cache
+C:\Users\Кирик\Desktop\c#projects\PhysCalc\PhysCalc\obj\Debug\PhysCalc.csproj.CoreCompileInputs.cache
+C:\Users\Кирик\Desktop\c#projects\PhysCalc\PhysCalc\obj\Debug\PhysCalc.exe
+C:\Users\Кирик\Desktop\c#projects\PhysCalc\PhysCalc\obj\Debug\PhysCalc.pdb
+C:\Users\Кирик\Desktop\c#projects\PhysCalc\PhysCalc\obj\Debug\PhysCalc.FormF.resources
+C:\Users\Кирик\Desktop\c#projects\PhysCalc\PhysCalc\obj\Debug\PhysCalc.FormFa.resources
+C:\Users\Кирик\Desktop\c#projects\PhysCalc\PhysCalc\obj\Debug\PhysCalc.FormFaChoose.resources
+C:\Users\Кирик\Desktop\c#projects\PhysCalc\PhysCalc\obj\Debug\PhysCalc.FormFaG.resources
+C:\Users\Кирик\Desktop\c#projects\PhysCalc\PhysCalc\obj\Debug\PhysCalc.FormFaP.resources
+C:\Users\Кирик\Desktop\c#projects\PhysCalc\PhysCalc\obj\Debug\PhysCalc.FormFaV.resources
