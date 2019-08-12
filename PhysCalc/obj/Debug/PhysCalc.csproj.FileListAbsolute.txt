@@ -14,3 +14,7 @@ C:\Users\Кирик\Desktop\c#projects\PhysCalc\PhysCalc\obj\Debug\PhysCalc.Form
 C:\Users\Кирик\Desktop\c#projects\PhysCalc\PhysCalc\obj\Debug\PhysCalc.FormFaG.resources
 C:\Users\Кирик\Desktop\c#projects\PhysCalc\PhysCalc\obj\Debug\PhysCalc.FormFaP.resources
 C:\Users\Кирик\Desktop\c#projects\PhysCalc\PhysCalc\obj\Debug\PhysCalc.FormFaV.resources
+C:\Users\Кирик\Desktop\c#projects\PhysCalc\PhysCalc\obj\Debug\PhysCalc.FormFm.resources
+C:\Users\Кирик\Desktop\c#projects\PhysCalc\PhysCalc\obj\Debug\PhysCalc.FormFtChoose.resources
+C:\Users\Кирик\Desktop\c#projects\PhysCalc\PhysCalc\obj\Debug\PhysCalc.FormFtF.resources
+C:\Users\Кирик\Desktop\c#projects\PhysCalc\PhysCalc\obj\Debug\PhysCalc.FormFtG.resources

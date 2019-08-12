@@ -88,6 +88,30 @@
     <Compile Include="FormFaV.Designer.cs">
       <DependentUpon>FormFaV.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormFm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFm.Designer.cs">
+      <DependentUpon>FormFm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFtChoose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFtChoose.Designer.cs">
+      <DependentUpon>FormFtChoose.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFtF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFtF.Designer.cs">
+      <DependentUpon>FormFtF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFtG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFtG.Designer.cs">
+      <DependentUpon>FormFtG.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -110,6 +134,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormFaV.resx">
       <DependentUpon>FormFaV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFm.resx">
+      <DependentUpon>FormFm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFtChoose.resx">
+      <DependentUpon>FormFtChoose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFtF.resx">
+      <DependentUpon>FormFtF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFtG.resx">
+      <DependentUpon>FormFtG.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
