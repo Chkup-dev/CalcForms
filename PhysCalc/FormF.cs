@@ -34,5 +34,14 @@ namespace PhysCalc
             ifrm.Top = this.Top; 
             ifrm.Show(); 
         }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            Form ifrm = new FormFtChoose();
+            ifrm.Left = this.Left;
+            ifrm.Top = this.Top;
+            ifrm.Show();
+            this.Hide();
+        }
     }
 }

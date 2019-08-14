@@ -16,5 +16,33 @@ namespace PhysCalc
         {
             InitializeComponent();
         }
+
+        private void FormFtG_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Form ifrm = Application.OpenForms[2];
+            ifrm.StartPosition = FormStartPosition.Manual;
+            ifrm.Left = this.Left;
+            ifrm.Top = this.Top;
+            ifrm.Show();
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            string lineF = textBox7.Text;
+            string linem = textBox5.Text;
+            double valueF = 0;
+            double valuem = 0;
+            try
+            {
+                valueF = Convert.ToDouble(lineF);
+                valuem = Convert.ToDouble(linem);
+            }
+            catch (Exception)
+            {
+
+            }
+            double Result = valueF / valuem;
+            textBox6.Text = Convert.ToString(Result) + "Н/Кг";
+        }
     }
 }

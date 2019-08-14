@@ -53,6 +53,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "F";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // button2
             // 
@@ -63,6 +64,7 @@
             this.button2.TabIndex = 2;
             this.button2.Text = "m";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // button3
             // 
@@ -73,6 +75,7 @@
             this.button3.TabIndex = 3;
             this.button3.Text = "g";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.Button3_Click);
             // 
             // FormFtChoose
             // 
@@ -85,6 +88,7 @@
             this.Controls.Add(this.textBox1);
             this.Name = "FormFtChoose";
             this.Text = "FormFtChoose";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormFtChoose_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 
