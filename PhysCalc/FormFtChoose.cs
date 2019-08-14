@@ -16,5 +16,41 @@ namespace PhysCalc
         {
             InitializeComponent();
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            Form ifrm = new FormFm();
+            ifrm.Left = this.Left;
+            ifrm.Top = this.Top;
+            ifrm.Show();
+            this.Hide();
+        }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            Form ifrm = new FormFtF();
+            ifrm.Left = this.Left;
+            ifrm.Top = this.Top;
+            ifrm.Show();
+            this.Hide();
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            Form ifrm = new FormFtG();
+            ifrm.Left = this.Left;
+            ifrm.Top = this.Top;
+            ifrm.Show();
+            this.Hide();
+        }
+
+        private void FormFtChoose_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Form ifrm = Application.OpenForms[1];
+            ifrm.StartPosition = FormStartPosition.Manual;
+            ifrm.Left = this.Left;
+            ifrm.Top = this.Top;
+            ifrm.Show();
+        }
     }
 }

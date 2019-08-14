@@ -58,6 +58,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "Считать";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // textBox2
             // 
@@ -136,6 +137,7 @@
             this.Controls.Add(this.textBox1);
             this.Name = "FormFtF";
             this.Text = "FormFtF";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormFtF_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 

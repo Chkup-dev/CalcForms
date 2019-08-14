@@ -44,7 +44,6 @@
             this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 32.25F);
             this.textBox7.Location = new System.Drawing.Point(119, 12);
             this.textBox7.Name = "textBox7";
-            this.textBox7.ReadOnly = true;
             this.textBox7.Size = new System.Drawing.Size(453, 56);
             this.textBox7.TabIndex = 15;
             this.textBox7.Text = "Значение(H)";
@@ -60,9 +59,11 @@
             // 
             // textBox5
             // 
+            this.textBox5.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 32.25F);
             this.textBox5.Location = new System.Drawing.Point(118, 136);
             this.textBox5.Name = "textBox5";
+            this.textBox5.ReadOnly = true;
             this.textBox5.Size = new System.Drawing.Size(453, 56);
             this.textBox5.TabIndex = 13;
             this.textBox5.Text = "Результат(кг)";
@@ -109,6 +110,7 @@
             this.button1.TabIndex = 9;
             this.button1.Text = "Считать";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // textBox1
             // 
@@ -136,6 +138,7 @@
             this.Controls.Add(this.textBox1);
             this.Name = "FormFm";
             this.Text = "FormFm";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormFm_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 
